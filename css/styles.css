@@ -1,0 +1,158 @@
+
+                                            /* for commenting in css select the line press ctrl+/ */
+
+#title
+{
+    background-color: #ED6462;
+    font-weight: bold;
+    
+}
+
+body{
+    font-family: "montserrat-black", sans-serif;
+}
+h1{
+    font-family: "Montserrat-black", sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: aliceblue;
+}
+h2{
+    font-size: 3rem;
+    font-family: "Montserrat-black", sans-serif;
+    line-height: 1.5;
+}                               
+h3{
+    font-weight: "Montserrat-bold", sans-serif;
+    font-size: 1.5rem;
+}
+/* parragraph */
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.btn btn-primary btn-lg{
+    color: rgb(255, 255, 255);
+}
+
+/* Navigation-bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    font-weight: bold ;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat-light", sans-serif;
+}
+
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image{
+    width: 50%;
+    transform: rotate(15deg);
+    margin-left: 125px;
+    left: 8%;
+    position: relative;
+}
+
+/* features */
+#features{
+    padding:7% 15% ;
+    background-color: white;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color: #f15855;
+    transition: background-color 0.5s;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: hwb(1 2% 7%);
+}
+
+/* TESTIMONIAL */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ed6462;
+    color: aliceblue;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/* press */
+#press{
+    background-color: #ED6462;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* carousel-item */
+.carousel-item{
+    padding: 7% 15%;
+}
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+/* cta section */
+#cta{
+    background-color: #ed6462 ;
+    color: white;
+    text-align: center;
+    padding: 7% 20%;
+ 
+}
+.h3title{
+    font-family: 'Dancing Script', cursive;
+}
+#footer{
+    background-color:white ;
+    color: black;
+    text-align: center;
+    padding: 7% 15%;
+}
+.space{
+    margin: 20px 10px;
+}
+@media (max-width: 990px) {
+    #title{
+        text-align: center;
+    }
+ .title-image{
+    transform: rotate(0);
+    position: static;
+    margin-right: 20%;
+    /* padding-left: 5%; */
+ }   
+}
